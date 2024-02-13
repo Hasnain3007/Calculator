@@ -4,7 +4,12 @@
     /* border: 1px solid red; */
 }
 
-body {}
+body h1{
+    color: gray;
+    /* text-transform: uppercase; */
+    font-size: 22px;
+    margin-top: 15px;
+}
 
 .main {
     /* width: 100%; */
@@ -20,7 +25,7 @@ body {}
     flex-direction: column;
     align-items: center;
     width: 300px;
-    height: 420px;
+    height: 450px;
     border: 5px solid gray;
     box-shadow: 1px 17px 66px -6px rgba(0, 0, 0, 1);
     -webkit-box-shadow: 1px 17px 66px -6px rgba(0, 0, 0, 1);
@@ -42,6 +47,8 @@ input {
     text-align: end;
     padding: 10px;
     box-sizing: border-box;
+    border: 2px solid white;
+    outline: none;
 }
 
 #key {

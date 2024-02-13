@@ -69,6 +69,8 @@ button {
     color: white;
     font-size: 25px;
     font-weight: bold;
+    /* border: 2px solid white; */
+    /* border: 2px solid black; */
 }
 
 button:hover {
@@ -89,4 +91,15 @@ button:active {
 
 .orange:active {
     background-color: rgb(253, 209, 127);
+}
+.equal{
+    background-color: orangered;
+}
+
+.equal:hover {
+    background-color: rgb(255, 98, 40);
+}
+
+.equal:active {
+    background-color: rgb(247, 135, 94);
 }
